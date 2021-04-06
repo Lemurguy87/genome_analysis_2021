@@ -1,5 +1,7 @@
 # genome_analysis_2021
 GitHub repository for laboratory/project work in the course genome analysis. Taken 2021
+
+
 The aim of this project is to discover the metabolic roles in bacterioplankton from the Northern Gulf of Mexico’s dead zone. In order to do so there are goals in place that should be met in a specific order. 
 
 These goals are as follows: 
