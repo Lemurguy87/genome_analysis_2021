@@ -20,6 +20,7 @@ D.  Comparison across the different bins, comparative genomics of each bin and o
 Below is a step by step guide of what will be done to the original data to reach each goal, as well as which software will be used. 
 -----------------------------------------------------------------------------------------------------------------------------------
 *Goal 1: Total runtime: ca 2 hours, 2*(¼+¼+x) = 2 hours(?) Sickle runtime unknown 
+
 1.1 Quality Check(QC) the data with FastaQC; 15 mins  
 1.2 Trim the data using Sickle, as Thrasher et. al. did; unknown  
 1.2 QC a second time using FastaQC; 15 mins 
@@ -82,7 +83,10 @@ Refine Wiki/practice presentation
 
 Week 21: 
 Present all work done 
+__________________________________________________________________________________________________
 
-
+Project organisation:
+---------------------
+In the github repository each goal will have its own folder. From this folder, each sub-goal will have its own folder, only containing data and results, while a seperate folder will contain code, specfic for this goal. The metadata is contained in the master branch. The miscellaneous folder contains items whose purpose does not fit in any of the previous folders. 
 
 
