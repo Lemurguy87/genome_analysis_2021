@@ -26,17 +26,21 @@ Below is a step by step guide of what will be done to the original data to reach
 1.2 QC a second time using FastaQC; 15 mins 
 
 *Goal 2: Total runtime: ca 5 hours, 2*(0.5+2)= 5
+
 2.1 Binning via Meatbat; 30 mins (2 cores)
 2.2 Bin QC via CheckM; 2 hours (2 cores)  
 
 *Goal 3: Total runtime: ca 12 hours, 6*2 = 12 
+
 3.1 Metagenome assembly via BWA; 6 hours (2 cores) 
 
 *Goal 4: Total runtime: 14 hours, 2*(6+1) = 14 
+
 4.1 Phylogenetic placement via PhyloPhlan; 6 hours (2 cores) 
 4.2 Functional annotation via Prokka; 1 hour (2 cores) 
 
 *Goal 5: Total runtime is a variable, since a runtime for Deseq2 cannot be determined 
+
 5.1 Expression analysis via Deseq2 
 
 The extra analyses are presented below, runtime for all of these analyses are currently unknown due to lack of experience with the tools: 
