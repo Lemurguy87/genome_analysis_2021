@@ -1,0 +1,15 @@
+9/4/21 15:25 
+Ran the first analyses, FastQC, for all the files, both DNA and RNA. The RNA sequences seem to have terrible amounts of contamination and faults, after reviewing their FastQC reports.
+The DNA sequences are not as bad, however their per sequence GC content scores are nothing to write home about. I will trimm both types of data i.e. trim the DNA and RNA sequences. 
+This is in hope of ironing out the observed faults. After some discussion with a TA, Daria, I am not as convinced to use Sickle for trimming. 
+While Sickle could work, Daria mentioned that it is not as common as Trimmomatic. If something were to go wrong with Sickle, I'd need to troubleshoot it by myself, while others in my group use Trimmomatic. 
+For this reason, since I have no experience in genome analysis, I will use Trimmomatic instead of Sickle, as I could rely on others to help me in troubleshooting. 
+
+10/4/21 11:14 
+I decided against running Trimmomatic in the end. When comparing Trimmomatic to Sickle I fround a great guide on github on Sickle which made me feel more comfortable with the software than Trimmomatic. 
+I tried to find a manual for Trimmoatic which I did find in bash. This manual was not first-time userfriendly; showing me pipeline of different input parameters which I did not understand. 
+This is why I chose Sickle; I should investigate the defining details of each software for a more nuanced comparisson. Running Sickle went fine but I enoutered an unforseen problem. 
+After the trimming process I realised that the trimmed DNA files were huge (pic below)! 
+This meant that I could not run FastQC. I decided to remove the trimmed DNA sequences, since the raw ones were already great, just their per sequence GC content was a little off, but I kept the trimmed RNA sequences. 
+
+
