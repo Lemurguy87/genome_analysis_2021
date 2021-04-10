@@ -8,7 +8,8 @@ For this reason, since I have no experience in genome analysis, I will use Trimm
 10/4/21 11:14 
 I decided against running Trimmomatic in the end. When comparing Trimmomatic to Sickle I fround a great guide on github on Sickle which made me feel more comfortable with the software than Trimmomatic. 
 I tried to find a manual for Trimmoatic which I did find in bash. This manual was not first-time userfriendly; showing me pipeline of different input parameters which I did not understand. 
-This is why I chose Sickle; I should investigate the defining details of each software for a more nuanced comparisson. Running Sickle went fine but I enoutered an unforseen problem. After the trimming process I realised that the trimmed DNA files were huge (pic below)! 
+This is why I chose Sickle; I should investigate the defining details of each software for a more nuanced comparisson. Running Sickle went fine but I enoutered an unforseen problem. 
+After the trimming process I realised that the trimmed DNA files were huge (pic below)! 
 This meant that I could not run FastQC. I decided to remove the trimmed DNA sequences, since the raw ones were already great, just their per sequence GC content was a little off, but I kept the trimmed RNA sequences. 
 
 
