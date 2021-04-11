@@ -12,4 +12,11 @@ This is why I chose Sickle; I should investigate the defining details of each so
 After the trimming process I realised that the trimmed DNA files were huge (pic below)! 
 This meant that I could not run FastQC. I decided to remove the trimmed DNA sequences, since the raw ones were already great, just their per sequence GC content was a little off, but I kept the trimmed RNA sequences. 
 
+11/4/21 21:20 
+Finally solved a github problem. I tried to push a couple of changes but accidently commited the data of the RNA trim. 
+I solved it after consulting a friend but now my github branches are messed up, something I'll need to fix. 
+After trimming my RNA files with Sickle; they are better but could they be even better? Sickle solved a lot of problems that FastQC picked up but the sequences are still not as good as their DNA counter parts.
+I want to compare these results with someone who used Trimmomatic. In any case the next step will be mapping, a little behind on the sechedule but it should workout. 
+
+
 
