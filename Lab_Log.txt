@@ -23,5 +23,9 @@ I was hoping to run metabat today, but by god github has to be the worst program
 Now I'll have to re-write all of the code that I used for goal_1. Which is tedious. If the problem keeps recurring I'm not sure what I should do. 
 In any case, the code I used worked wonders! Now I have all files with the .gz extensions. Tomorrow I could run Metabat for binning. 
 
+14/4/21 23:25 
+I worked out that I forgot to trimm the adapters from my RNA sequences. Trying to use Schythe, which Thrasher et. al. did, a problem occured; Schythe isn't on Uppmax. 
+Or I couldn't find it. But peers guided me through trimmomatic and the RNA sequences are re-trimmed, with much better results. Finally I also wrote batch scripts for Metabat. 
+The batch scripts exist in two categories: DNA/RNA, though the DNA job was not annotated as such. Each are predicted to take ca 20 hours to run. If they are written correctly, results will be available tomorrow. 
 
 
