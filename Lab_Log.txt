@@ -18,5 +18,10 @@ I solved it after consulting a friend but now my github branches are messed up, 
 After trimming my RNA files with Sickle; they are better but could they be even better? Sickle solved a lot of problems that FastQC picked up but the sequences are still not as good as their DNA counter parts.
 I want to compare these results with someone who used Trimmomatic. In any case the next step will be mapping, a little behind on the sechedule but it should workout. 
 
+13/4/21 21:42 
+I was hoping to run metabat today, but by god github has to be the worst program I have ever used. I had the same problem as before, but my previous solution didn't work. 
+Now I'll have to re-write all of the code that I used for goal_1. Which is tedious. If the problem keeps recurring I'm not sure what I should do. 
+In any case, the code I used worked wonders! Now I have all files with the .gz extensions. Tomorrow I could run Metabat for binning. 
+
 
 
