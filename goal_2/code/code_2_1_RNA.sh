@@ -13,5 +13,5 @@ module load bioinfo-tools
 module load megahit
 
 #RNA trims
-megahit -1 /home/guah1142/genome_analysis_2021/results_RNA/forward_paired_137_1.fq.gz -2 /home/guah1142/genome_analysis_2021/results_RNA/reverse_paired_137_2.fq.gz -o /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/RNA_bins/
-megahit -1 /home/guah1142/genome_analysis_2021/results_RNA/forward_paired_139_1.fq.gz -2 /home/guah1142/genome_analysis_2021/results_RNA/reverse_paired_139_2.fq.gz -o /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/RNA_bins/
+megahit -1 /home/guah1142/genome_analysis_2021/results_RNA/forward_paired_137_1.fq.gz -2 /home/guah1142/genome_analysis_2021/results_RNA/reverse_paired_137_2.fq.gz -o /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/RNA_bins/137/
+megahit -1 /home/guah1142/genome_analysis_2021/results_RNA/forward_paired_139_1.fq.gz -2 /home/guah1142/genome_analysis_2021/results_RNA/reverse_paired_139_2.fq.gz -o /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/RNA_bins/139/
