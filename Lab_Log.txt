@@ -35,3 +35,7 @@ As well as taking a closer look into the taxanomic placement of the detected org
 Finally a branch-site test of the discovered, and annotated genes, would be cool, to see what kind of selective pressures the proteins are under. 
 The plan for today has changed: from running metabat to running megahit and maxquast THEN metabat. 
 
+15/4/21 22:10 
+Created code for goal 2_2, quality controlling for the DNA/RNA assemblies from Megahit. Still having issues with the DNA assemblies, Megahit not working properly. 
+Ran the RNA assemblies using 2_2 code. 
+
