@@ -14,6 +14,6 @@ module load quast
 
 #QC of the RNA 
 
-python quast.py /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/RNA_bins/139/final.contigs.fa /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/
-python quast.py	/home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/RNA_bins/137/final.contigs.fa -o /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/137/
+python ./quast.py /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/RNA_bins/139/final.contigs.fa -o /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/
+python ./quast.py /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/RNA_bins/137/final.contigs.fa -o /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/137/
 
