@@ -10,8 +10,8 @@
 #SBATCH --mail-user gustav.ahlstrom.1142@student.uu.se
 
 module load bioinfo-tools
-module load MetaBat
+module load megahit
 
-megahit -1 /home/guah1142/genome_analysis_2021/results_RNA/forward_paired_137_1.fq.gz -2 /home/guah1142/genome_analysis_2021/results_RNA/forward_paired_137_2.fq.gz -o /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/  
-megahit -1 /home/guah1142/genome_analysis_2021/results_RNA/forward_paired_139_1.fq.gz -2 /home/guah1142/genome_analysis_2021/results_RNA/forward_paired_139_2.fq.gz -o /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/
-
+#RNA trims
+megahit -1 /home/guah1142/genome_analysis_2021/results_RNA/forward_paired_137_1.fq.gz -2 /home/guah1142/genome_analysis_2021/results_RNA/reverse_paired_137_2.fq.gz -o /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/RNA_bins/
+megahit -1 /home/guah1142/genome_analysis_2021/results_RNA/forward_paired_139_1.fq.gz -2 /home/guah1142/genome_analysis_2021/results_RNA/reverse_paired_139_2.fq.gz -o /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/RNA_bins/
