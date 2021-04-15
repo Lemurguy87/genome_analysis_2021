@@ -28,4 +28,10 @@ I worked out that I forgot to trimm the adapters from my RNA sequences. Trying t
 Or I couldn't find it. But peers guided me through trimmomatic and the RNA sequences are re-trimmed, with much better results. Finally I also wrote batch scripts for Metabat. 
 The batch scripts exist in two categories: DNA/RNA, though the DNA job was not annotated as such. Each are predicted to take ca 20 hours to run. If they are written correctly, results will be available tomorrow. 
 
+15/4/21 15:20 
+After reviewing the project plan, a few changes will be made. The first change is to perform megahit and maxquast before metabat. Then, for goal 4, Prokka will be run first. 
+Instead of using Deseq2, BWA will be run a second time. Finally the extra analyses will be altered; from the current set up to taking a deeper look into the relation of genes within each bin. 
+As well as taking a closer look into the taxanomic placement of the detected organisms. 
+Finally a branch-site test of the discovered, and annotated genes, would be cool, to see what kind of selective pressures the proteins are under. 
+The plan for today has changed: from running metabat to running megahit and maxquast THEN metabat. 
 
