@@ -22,13 +22,15 @@ Below is a step by step guide of what will be done to the original data to reach
 *Goal 1: Total runtime: ca 2 hours, 2*(¼+¼+x) = 2 hours(?) Sickle runtime unknown 
 
 1.1 Quality Check(QC) the data with FastaQC; 15 mins  
-1.2 Trim the data using Sickle, as Thrasher et. al. did; unknown  
-1.2 QC a second time using FastaQC; 15 mins 
+1.2 Trim the data using Sickle, as Thrasher et. al. did; unknown  (USED TIMMOMATIC) 
+1.3 QC a second time using FastaQC; 15 mins 
 
-*Goal 2: Total runtime: ca 5 hours, 2*(0.5+2)= 5
+*Goal 2: Total runtime: ca 5 hours, 2*(0.5+2+1.75+6)= 20.5 hrs 
 
-2.1 Binning via Meatbat; 30 mins (2 cores)
-2.2 Bin QC via CheckM; 2 hours (2 cores)  
+2.1 Assembly via Megahit ca 6 hours (2 cores) 
+2.2 QC of Megahit using MetaQuast 45 mins (2 cores) 
+2.3 Binning via Meatbat; 30 mins (2 cores)
+2.4 Bin QC via CheckM; 2 hours (2 cores)  
 
 *Goal 3: Total runtime: ca 12 hours, 6*2 = 12 
 
@@ -36,8 +38,9 @@ Below is a step by step guide of what will be done to the original data to reach
 
 *Goal 4: Total runtime: 14 hours, 2*(6+1) = 14 
 
-4.1 Phylogenetic placement via PhyloPhlan; 6 hours (2 cores) 
-4.2 Functional annotation via Prokka; 1 hour (2 cores) 
+4.1 Functional annotation via Prokka; 1 hour (2 cores) 
+4.2 Phylogenetic placement via PhyloPhlan; 6 hours (2 cores) 
+
 
 *Goal 5: Total runtime is a variable, since a runtime for Deseq2 cannot be determined 
 
@@ -46,10 +49,9 @@ Below is a step by step guide of what will be done to the original data to reach
 The extra analyses are presented below, runtime for all of these analyses are currently unknown due to lack of experience with the tools: 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-*A.  In order to succeed with this goal two techniques will be used: RPMK abundance of taxa and genes, to measure the abundance of the different organisms, and a Ribosomal protein tree shall be constructed. Both techniques are specified in Thrasher et. al. paper.
-
-*B.  Following Thrashers et. al. workflow, in order to recreate the metabolic pathway, the IMG (Integrated Microbial Genomes) will be used. 
-
+*A.  Review gene functionalites in the different bins
+*B.  Review the taxanomic placement of each species 
+*C. Perform a branch-site test on a sub-set of genes from part A
 *Currently working on how to achive goals C and D 
 
 
