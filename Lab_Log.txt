@@ -39,3 +39,5 @@ The plan for today has changed: from running metabat to running megahit and maxq
 Created code for goal 2_2, quality controlling for the DNA/RNA assemblies from Megahit. Still having issues with the DNA assemblies, Megahit not working properly. 
 Ran the RNA assemblies using 2_2 code. 
 
+17/4/21 16:40 
+Got the quast results back, for both RNA and DNA 
