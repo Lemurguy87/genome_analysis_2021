@@ -41,3 +41,8 @@ Ran the RNA assemblies using 2_2 code.
 
 17/4/21 16:40 
 Got the quast results back, for both RNA and DNA 
+23:13 
+Reviewd the results, as well as looking throug the lecture on genome assembly. 
+It is hard to say how good my assemblies are mostly due to the lack of reference and not knowing which subset of Thrasher data I am working with.
+The assemblies seem to retain the same GC content as FastQC produced and of similar sizes, though there is more to gain from this data I am sure. 
+In any case I will write the MetaBat script now and run, hopefully have it done by tomorrow. 
