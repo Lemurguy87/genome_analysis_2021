@@ -46,3 +46,8 @@ Reviewd the results, as well as looking throug the lecture on genome assembly.
 It is hard to say how good my assemblies are mostly due to the lack of reference and not knowing which subset of Thrasher data I am working with.
 The assemblies seem to retain the same GC content as FastQC produced and of similar sizes, though there is more to gain from this data I am sure. 
 In any case I will write the MetaBat script now and run, hopefully have it done by tomorrow. 
+
+18/4/21 15:50 
+The DNA metabat worked perfectly, I now have bins for samples 133 and 129. However I have not had the same success with binning the RNA contigs. 
+I will fix the RNA script today while trying to run the checkM for my DNA bins, to asses their quality. 
+Furthermore I should start to delete some of the intermediary files. I have used half of my storage capacity in uppmax at this point. 
