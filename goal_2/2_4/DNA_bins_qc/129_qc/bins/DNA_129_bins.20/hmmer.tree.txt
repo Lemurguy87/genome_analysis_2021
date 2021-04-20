@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+k119_219985_1        -             67 Ribosomal_L13        PF00572.13   128   8.7e-21   68.4   0.1   1   1   5.1e-23   1.1e-20   68.0   0.1     1    46    22    67    22    67 0.99 # 2 # 202 # -1 # ID=68_1;partial=10;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.572
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /scratch/4456914/8b38d435-8b43-4b7d-bd22-b28f4c6b9130
+# Target file:     /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/129_qc/bins/DNA_129_bins.20/genes.faa
+# Option settings: hmmsearch --domtblout /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/129_qc/bins/DNA_129_bins.20/hmmer.tree.txt --noali --notextw -E 0.1 --domE 0.1 --cpu 1 /scratch/4456914/8b38d435-8b43-4b7d-bd22-b28f4c6b9130 /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/129_qc/bins/DNA_129_bins.20/genes.faa 
+# Current dir:     /domus/h1/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/code
+# Date:            Sun Apr 18 20:58:57 2021
+# [ok]

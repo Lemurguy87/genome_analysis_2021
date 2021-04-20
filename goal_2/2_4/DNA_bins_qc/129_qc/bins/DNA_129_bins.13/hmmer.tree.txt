@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+k119_308657_3        -            573 TIGR00422            TIGR00422    863   2.8e-79  262.8   0.1   1   2   1.8e-42   5.5e-40  132.8   0.0     5   231    18   248    14   265 0.93 # 1042 # 2760 # 1 # ID=50_3;partial=01;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.517
+k119_308657_3        -            573 TIGR00422            TIGR00422    863   2.8e-79  262.8   0.1   2   2   4.7e-41   1.5e-38  128.1   0.1   254   482   314   571   305   573 0.85 # 1042 # 2760 # 1 # ID=50_3;partial=01;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.517
+k119_407493_1        -            464 TIGR00422            TIGR00422    863   4.8e-44  146.2   0.0   1   1   1.9e-46   5.8e-44  146.0   0.0   517   829     2   320     1   353 0.86 # 2 # 1393 # 1 # ID=197_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.550
+k119_73956_3         -            217 TIGR00422            TIGR00422    863     0.005   10.5   0.4   1   1     2e-05    0.0061   10.3   0.4   719   816     8   106     3   161 0.85 # 1746 # 2396 # 1 # ID=175_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.508
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /scratch/4456914/f10c6fe9-18d1-4216-b7b2-5d1b287e3553
+# Target file:     /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/129_qc/bins/DNA_129_bins.13/genes.faa
+# Option settings: hmmsearch --domtblout /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/129_qc/bins/DNA_129_bins.13/hmmer.tree.txt --noali --notextw -E 0.1 --domE 0.1 --cpu 1 /scratch/4456914/f10c6fe9-18d1-4216-b7b2-5d1b287e3553 /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/129_qc/bins/DNA_129_bins.13/genes.faa 
+# Current dir:     /domus/h1/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/code
+# Date:            Sun Apr 18 20:57:37 2021
+# [ok]

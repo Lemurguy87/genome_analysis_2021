@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+k119_425277_4        -            127 Ribosomal_S11        PF00411.14   110   3.5e-30   99.2   0.6   1   1   1.1e-32   4.1e-30   99.0   0.6     2   110     6   122     5   122 0.97 # 2069 # 2449 # 1 # ID=38_4;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.504
+k119_342363_2        -           1059 TIGR00422            TIGR00422    863  1.4e-114  378.3   0.0   1   2     7e-37   2.6e-34  112.7   0.0     5   233     9   241     6   247 0.96 # 282 # 3458 # 1 # ID=39_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.493
+k119_342363_2        -           1059 TIGR00422            TIGR00422    863  1.4e-114  378.3   0.0   2   2   1.9e-82   7.1e-80  263.5   0.0   255   745   318   842   313   851 0.88 # 282 # 3458 # 1 # ID=39_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.493
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /scratch/4456914/e1c07d1a-eb30-430e-9dea-1483db738d68
+# Target file:     /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/129_qc/bins/DNA_129_bins.2/genes.faa
+# Option settings: hmmsearch --domtblout /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/129_qc/bins/DNA_129_bins.2/hmmer.tree.txt --noali --notextw -E 0.1 --domE 0.1 --cpu 1 /scratch/4456914/e1c07d1a-eb30-430e-9dea-1483db738d68 /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/129_qc/bins/DNA_129_bins.2/genes.faa 
+# Current dir:     /domus/h1/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/code
+# Date:            Sun Apr 18 20:58:55 2021
+# [ok]
