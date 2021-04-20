@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+k119_73111_1         -            158 Ribosomal_S7         PF00177.16   148   6.4e-60  197.0   1.4   1   1   8.1e-63   7.2e-60  196.9   1.4     1   148     1   150     1   150 0.98 # 45 # 518 # 1 # ID=212_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.494
+k119_159552_4        -            315 Ribosomal_L22        PF00237.14   105    0.0018   14.2   0.1   1   2     0.048        43    0.1   0.0    26    50    67    91    52    99 0.89 # 1556 # 2500 # -1 # ID=111_4;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.466
+k119_159552_4        -            315 Ribosomal_L22        PF00237.14   105    0.0018   14.2   0.1   2   2   2.5e-05     0.022   10.7   0.0    17    41   247   271   243   276 0.90 # 1556 # 2500 # -1 # ID=111_4;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.466
+k119_163463_6        -            167 Ribosomal_S5         PF00333.15    67   1.9e-28   94.0   5.4   1   1   3.3e-31     3e-28   93.4   5.4     1    66     9    74     9    75 0.96 # 2847 # 3347 # -1 # ID=144_6;partial=00;start_type=GTG;rbs_motif=TTT;rbs_spacer=15bp;gc_cont=0.529
+k119_163463_1        -             99 Ribosomal_S11        PF00411.14   110   8.6e-34  112.1   0.4   1   1   1.2e-36   1.1e-33  111.7   0.4     1    82    17    98    17    99 0.99 # 2 # 298 # -1 # ID=144_1;partial=10;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.451
+k119_89488_2         -            921 RNA_pol_Rpb2_6       PF00562.23   386   2.2e-62  207.0   0.1   1   2    0.0001     0.091    7.4   0.0     1    28   680   707   680   721 0.90 # 2188 # 4950 # 1 # ID=147_2;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.477
+k119_89488_2         -            921 RNA_pol_Rpb2_6       PF00562.23   386   2.2e-62  207.0   0.1   2   2   1.9e-62   1.7e-59  197.4   0.2     1   176   733   918   733   921 0.95 # 2188 # 4950 # 1 # ID=147_2;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.477
+k119_138793_3        -            287 TruB_N               PF01509.13   149   3.6e-54  179.0   0.0   1   1   5.3e-57   4.7e-54  178.6   0.0     1   149    23   171    23   171 0.99 # 1718 # 2578 # 1 # ID=138_3;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.483
+k119_163463_6        -            167 Ribosomal_S5_C       PF03719.10    74   4.7e-29   95.5   0.3   1   1   9.2e-32   8.2e-29   94.7   0.3     1    74    84   157    84   157 0.99 # 2847 # 3347 # -1 # ID=144_6;partial=00;start_type=GTG;rbs_motif=TTT;rbs_spacer=15bp;gc_cont=0.529
+k119_89488_2         -            921 RNA_pol_Rpb2_2       PF04561.9    190   7.8e-29   96.4   0.1   1   2   2.5e-10   2.2e-07   26.4   0.0    18    69   176   226   149   242 0.83 # 2188 # 4950 # 1 # ID=147_2;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.477
+k119_89488_2         -            921 RNA_pol_Rpb2_2       PF04561.9    190   7.8e-29   96.4   0.1   2   2   7.1e-23   6.3e-20   67.4   0.1    84   190   360   472   336   472 0.90 # 2188 # 4950 # 1 # ID=147_2;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.477
+k119_89488_2         -            921 RNA_pol_Rpb2_1       PF04563.10   203     7e-24   79.9   0.0   1   1     2e-26   1.8e-23   78.5   0.0     2   203    27   527    26   527 0.97 # 2188 # 4950 # 1 # ID=147_2;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.477
+k119_89488_2         -            921 RNA_pol_Rpb2_3       PF04565.11    68   4.5e-32  105.6   0.0   1   1   1.9e-34   1.7e-31  103.8   0.0     1    68   531   600   531   600 0.99 # 2188 # 4950 # 1 # ID=147_2;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.477
+k119_138793_1        -            441 IF-2                 PF11987.3    109   9.1e-39  127.7   4.9   1   1     1e-41   9.1e-39  127.7   4.9     2   109   225   332   224   332 0.98 # 1 # 1323 # 1 # ID=138_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.509
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /scratch/4456914/b91dbbc6-157a-4045-b55b-11783e96b7cd
+# Target file:     /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/133_qc/bins/DNA_133_bins.27/genes.faa
+# Option settings: hmmsearch --domtblout /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/133_qc/bins/DNA_133_bins.27/hmmer.tree.txt --noali --notextw -E 0.1 --domE 0.1 --cpu 1 /scratch/4456914/b91dbbc6-157a-4045-b55b-11783e96b7cd /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/133_qc/bins/DNA_133_bins.27/genes.faa 
+# Current dir:     /domus/h1/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/code
+# Date:            Sun Apr 18 21:08:53 2021
+# [ok]

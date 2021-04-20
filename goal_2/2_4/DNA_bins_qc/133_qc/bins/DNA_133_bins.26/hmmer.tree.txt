@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+k119_46998_3         -            191 Ribosomal_S5         PF00333.15    67   1.4e-30   99.2   2.6   1   1   9.5e-33   2.5e-30   98.4   2.6     1    66    20    85    20    86 0.97 # 931 # 1503 # 1 # ID=61_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.653
+k119_320547_1        -             56 Ribosomal_S9         PF00380.14   121    0.0015   13.0   0.1   1   1   5.9e-06    0.0015   13.0   0.1    52    75     5    28     1    53 0.87 # 3 # 170 # -1 # ID=2_1;partial=10;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.696
+k119_46998_2         -            120 Ribosomal_L18p       PF00861.17   119   5.2e-36  117.8   1.6   1   1   2.2e-38   5.7e-36  117.6   1.6     6   119     9   119     4   119 0.90 # 427 # 786 # 1 # ID=61_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.622
+k119_46998_3         -            191 Ribosomal_S5_C       PF03719.10    74   3.9e-33  106.9   0.3   1   1   2.3e-35     6e-33  106.3   0.3     1    74    96   169    96   169 0.99 # 931 # 1503 # 1 # ID=61_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.653
+k119_317729_1        -            229 TIGR00422            TIGR00422    863   1.7e-30   99.6   0.0   1   1   1.5e-32   1.9e-30   99.4   0.0   654   862     2   207     1   208 0.95 # 2 # 688 # 1 # ID=63_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.662
+k119_308250_1        -            232 TIGR00422            TIGR00422    863   5.7e-22   71.4   0.0   1   1   5.5e-23   7.2e-21   67.7   0.0   525   721     2   169     1   179 0.84 # 3 # 698 # 1 # ID=40_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.628
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /scratch/4456914/2055aa3b-015d-433b-b81e-897b2d4c0748
+# Target file:     /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/133_qc/bins/DNA_133_bins.26/genes.faa
+# Option settings: hmmsearch --domtblout /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/133_qc/bins/DNA_133_bins.26/hmmer.tree.txt --noali --notextw -E 0.1 --domE 0.1 --cpu 1 /scratch/4456914/2055aa3b-015d-433b-b81e-897b2d4c0748 /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_4/DNA_bins_qc/133_qc/bins/DNA_133_bins.26/genes.faa 
+# Current dir:     /domus/h1/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/code
+# Date:            Sun Apr 18 21:08:47 2021
+# [ok]
