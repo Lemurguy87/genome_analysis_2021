@@ -68,3 +68,7 @@ Behind on the schedule but ficed the DNA QC plots problem. Now time to remove co
 They did this by trying to do "comparative relative abundance of mean DNA read coverage by sample". To me this seems excesive; the bins are already contaminated and trying to save the bin in any form is a waste of time. 
 It would be more expedient to simply remove bins contamination above the 10% threshold that Thrasher et. al. specified. That way I can catch up and do not need to worry about contamination to the same degree. 
 I'm hoping to run prokka tomorrow. 
+23:27 
+While I am working on the prokka, in parallel I will aim to achive one of the goals set up in the project description: "RNA expression analysis of assembled genomes"
+Currently I am unsure as to what kind of technology I will use, probably some form of RNA assembler though I have already assembled the RNA seqs via Megahit. 
+I will discuss this with my peers. 
