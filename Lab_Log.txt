@@ -63,3 +63,8 @@ In order to run bin_qa_plot I first need to run the qa command. In order to run 
 I do not know where to find this marker file nor what it is or what it does. A solution would be to re-run CheckM with the taxonomy_wf. This generates a marker file. 
 Problem: I had issues with running the taxonomy_wf before, and had no clue how to solve the initial problem. Perhaps the solution is this: run the taxonomy_wf with a new directory at uppmax. 
 
+28/4/21 23:09 
+Behind on the schedule but ficed the DNA QC plots problem. Now time to remove contaminated bins. In the Thrash. et. al. paper they tried to "clean" data that was contaminated.
+They did this by trying to do "comparative relative abundance of mean DNA read coverage by sample". To me this seems excesive; the bins are already contaminated and trying to save the bin in any form is a waste of time. 
+It would be more expedient to simply remove bins contamination above the 10% threshold that Thrasher et. al. specified. That way I can catch up and do not need to worry about contamination to the same degree. 
+I'm hoping to run prokka tomorrow. 
