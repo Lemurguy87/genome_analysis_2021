@@ -72,3 +72,10 @@ I'm hoping to run prokka tomorrow.
 While I am working on the prokka, in parallel I will aim to achive one of the goals set up in the project description: "RNA expression analysis of assembled genomes"
 Currently I am unsure as to what kind of technology I will use, probably some form of RNA assembler though I have already assembled the RNA seqs via Megahit. 
 I will discuss this with my peers. 
+
+29/4/21 
+After a review of my DNA bins and consulting with my peers I decided to only go forward with bins that had above average coverage and below average contamination. 
+For the 133 group of bins these averages were: 29.67 for coverage and 16.81 for contamination, meanwhile for the 129 group of bins the metrics were 36.37 and 16.89 respectiely. 
+These metrics were the mean values of all bins in each respective group. Perhaps it would be better to use the median value or mode, since these numbers would not be as tilted towards extremes. 
+But this way I can more easily continue with Prokka and downstream work will be much faster with less values. 
+Furthermore, I will mkae two scripts now; one for the Prokka analysis of the DNA bins and one for the RNA expression analysis. 
