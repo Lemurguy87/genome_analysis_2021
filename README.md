@@ -32,14 +32,14 @@ Below is a step by step guide of what will be done to the original data to reach
 2.3 Binning via Meatbat; 30 mins (2 cores)
 2.4 Bin QC via CheckM; 2 hours (2 cores)  
 
-*Goal 3: Total runtime: ca 12 hours, 6*2 = 12 
+*Goal 3: Total runtime: ca 12 hours, (1+6)*2 = 14 
 
-3.1 Metagenome assembly via BWA; 6 hours (2 cores) 
+3.1 Functional annotation via Prokka; 1 hour (2 cores) 
+3.2 Metagenome assembly via BWA; 6 hours (2 cores) 
 
-*Goal 4: Total runtime: 14 hours, 2*(6+1) = 14 
+*Goal 4: Total runtime: 14 hours, 2*(6) = 12 
 
-4.1 Functional annotation via Prokka; 1 hour (2 cores) 
-4.2 Phylogenetic placement via PhyloPhlan; 6 hours (2 cores) 
+4.1 Phylogenetic placement via PhyloPhlan; 6 hours (2 cores) 
 
 
 *Goal 5: Total runtime is a variable, since a runtime for Deseq2 cannot be determined 
