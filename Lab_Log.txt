@@ -79,3 +79,8 @@ For the 133 group of bins these averages were: 29.67 for coverage and 16.81 for 
 These metrics were the mean values of all bins in each respective group. Perhaps it would be better to use the median value or mode, since these numbers would not be as tilted towards extremes. 
 But this way I can more easily continue with Prokka and downstream work will be much faster with less values. 
 Furthermore, I will mkae two scripts now; one for the Prokka analysis of the DNA bins and one for the RNA expression analysis. 
+
+1/5/2021 22:05
+Prokka for 129 bins worked great. Now working on 133 bins. 
+Also decided to switsch up goals to match the current situation; moved prokka from goal 4 to goal 3. 
+Running BWA right now; gonna make a script for the indexing, 
