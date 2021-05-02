@@ -84,3 +84,6 @@ Furthermore, I will mkae two scripts now; one for the Prokka analysis of the DNA
 Prokka for 129 bins worked great. Now working on 133 bins. 
 Also decided to switsch up goals to match the current situation; moved prokka from goal 4 to goal 3. 
 Running BWA right now; gonna make a script for the indexing, 
+
+2/5/2021 21:50
+Finished all BWA indexing. Verified the output at this website: https://www.biostars.org/p/73585/. Gonna start doing BWA now. 
