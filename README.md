@@ -34,7 +34,8 @@ Below is a step by step guide of what will be done to the original data to reach
 
 *Goal 3: Total runtime: ca 12 hours, (1+6)*2 = 14 
 
-3.1 Functional annotation via Prokka; 1 hour (2 cores) 
+3.1 Functional annotation via Prokka; 1 hour (2 cores)
+ 
 3.2 Metagenome assembly via BWA; 6 hours (2 cores) 
 
 *Goal 4: Total runtime: 14 hours, 2*(6) = 12 
