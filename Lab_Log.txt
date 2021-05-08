@@ -87,3 +87,6 @@ Running BWA right now; gonna make a script for the indexing,
 
 2/5/2021 21:50
 Finished all BWA indexing. Verified the output at this website: https://www.biostars.org/p/73585/. Gonna start doing BWA now. 
+
+8/5/21 18:59 
+Gave up trying to write a script for BWA. Instead I solved it by manually running each BWA command on the command line, exactly the same as in the code folder. This worked and I have now mapped each good bin with each RNA read. 
