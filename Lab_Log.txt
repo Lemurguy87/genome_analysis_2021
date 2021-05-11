@@ -90,3 +90,9 @@ Finished all BWA indexing. Verified the output at this website: https://www.bios
 
 8/5/21 18:59 
 Gave up trying to write a script for BWA. Instead I solved it by manually running each BWA command on the command line, exactly the same as in the code folder. This worked and I have now mapped each good bin with each RNA read. 
+
+11/5/21 10:34 
+Tried to get PhyloPhlAn to work. Apparently there are two versions of PhyloPhlAn on Uppmax; phylophlan/0.99 and PhyloPhlAn. Neither seem to work. The former, once loaded, doesn't do anything; when I type "phylophlan -use" into the command line, the command line does not recognize the command. I tried the latter version and recieved a wall of text with errors to do with the current python version, that I am using. After reviewing what had already been said on the GitHub of the course, Daria reccomended that soft linking the installation. I've no clue what this means, and decided to try to follow the git hub guide to phyophlan. Phyophlans installation guide was not any easier to use. The two alternatives presented, to either download phylophlan via conda or via git hub, didn't work. The github alternative conflited with my user rights on uppmax, thus a no-go. The second alternative via conda gave me a small error message: "Fatal Python error: initfsencoding: Unable to get the locale encoding
+ModuleNotFoundError: No module named 'encodings'Current thread 0x00002b0d6f948ec0 (most recent call first):
+Aborted (core dumped)" 
+I've asked for help, and in the mean time I'll read up on Htseq. 
