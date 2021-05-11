@@ -96,3 +96,6 @@ Tried to get PhyloPhlAn to work. Apparently there are two versions of PhyloPhlAn
 ModuleNotFoundError: No module named 'encodings'Current thread 0x00002b0d6f948ec0 (most recent call first):
 Aborted (core dumped)" 
 I've asked for help, and in the mean time I'll read up on Htseq. 
+
+11/5/21 19:04 
+Imma moron and deleted all good RNA bins. Now I'm pretty sure that I wont need em, only need .faa files and .sam files which I already have, but still stinks. No real luck with PhyloPhlan either, getting new errors everytime, but still something. Have to fix this tomorrow. 
