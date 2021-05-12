@@ -99,3 +99,6 @@ I've asked for help, and in the mean time I'll read up on Htseq.
 
 11/5/21 19:04 
 Imma moron and deleted all good RNA bins. Now I'm pretty sure that I wont need em, only need .faa files and .sam files which I already have, but still stinks. No real luck with PhyloPhlan either, getting new errors everytime, but still something. Have to fix this tomorrow. 
+
+12/5/21 23:45 
+Finally, I believe my phylophlan script works, haven't had an issue yet and considering that I started the script on snowy ca 5 hours ago it's a good sign. The next and final Uppmax analysis is HTSeq, not Deseq2 since time won't allow it and Daria argued it wouldnt be too useful for my goals, and have just uploaded a script to Uppmax. Hopefully all goes well and both results will be finished by morning, allowing me more time to work on this wiki and my presentation. Note to self: Currently have only writen HTSeq code for 129 samples and not 133. 
