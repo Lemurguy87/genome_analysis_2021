@@ -102,3 +102,8 @@ Imma moron and deleted all good RNA bins. Now I'm pretty sure that I wont need e
 
 12/5/21 23:45 
 Finally, I believe my phylophlan script works, haven't had an issue yet and considering that I started the script on snowy ca 5 hours ago it's a good sign. The next and final Uppmax analysis is HTSeq, not Deseq2 since time won't allow it and Daria argued it wouldnt be too useful for my goals, and have just uploaded a script to Uppmax. Hopefully all goes well and both results will be finished by morning, allowing me more time to work on this wiki and my presentation. Note to self: Currently have only writen HTSeq code for 129 samples and not 133. 
+
+17/5/21 18:04 
+PhyloPhlan didn't work but I've now amended the script and I am now waiting for its out put. 
+The HTSeq mystery has been sloved. What needs to be done in order to make sense of the counts is to first look at the number in the HTSeq output for the feature. 
+This number is the ID of the feature in the gff file. In the gff file there is a feature name, something similar to "k119_64852_10". This feature name can then be used to identify the features full genetic sequences in the prokka gff file for that specific sample. I'll be able to preform some more indepth analyses tomorrow with this tactic. A shame with the intermediary file but it happens. Furthermore need to run a few extr analyses, hoping to manage this. 
