@@ -1,0 +1,62 @@
+/sw/bioinfo/quast/4.5.4/rackham/bin/quast.py /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/RNA_bins/139/final.contigs.fa -o /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/
+
+Version: 4.5.4
+
+System information:
+  OS: Linux-3.10.0-1160.21.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 2.7.6
+  CPUs number: 16
+
+Started: 2021-04-16 19:15:42
+
+Logging to /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/quast.log
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /domus/h1/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/code
+Main parameters: 
+  Threads: 4, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_1/RNA_bins/139/final.contigs.fa ==> final.contigs
+
+2021-04-16 19:15:45
+Running Basic statistics processor...
+  Contig files: 
+    final.contigs
+  Calculating N50 and L50...
+    final.contigs, N50 = 828, L50 = 305, Total length = 790794, GC % = 41.50, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/basic_stats/GC_content_plot.pdf
+  Drawing final.contigs GC content plot...
+    saved to /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/basic_stats/final.contigs_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2021-04-16 19:15:47
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2021-04-16 19:15:48
+RESULTS:
+  Text versions of total report are saved to /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/report.html
+  PDF version (tables and plots) is saved to /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/report.pdf
+  Icarus (contig browser) is saved to /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/icarus.html
+  Log saved to /home/guah1142/genome_analysis_2021/genome_analysis_2021/goal_2/2_2/RNA_QC/139/quast.log
+
+Finished: 2021-04-16 19:15:48
+Elapsed time: 0:00:06.156553
+NOTICEs: 3; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
