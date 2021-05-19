@@ -40,7 +40,7 @@ Below is a step by step guide of what will be done to the original data to reach
 
 *Goal 4: Total runtime: 14 hours, 2*(6) = 12 
 
-~4.1 Phylogenetic placement via PhyloPhlan; 6 hours (2 cores)™~ 
+~4.1 Phylogenetic placement via PhyloPhlan; 6 hours (2 cores)~ 
 
 
 *Goal 5: Total runtime is a variable, since a runtime for Deseq2 cannot be determined 
