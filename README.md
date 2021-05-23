@@ -51,12 +51,6 @@ The extra analyses are presented below, runtime for all of these analyses are cu
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 *A.  Review gene functionalites in the different bins
-*B.  Review the taxanomic placement of each species 
-*C. Perform a branch-site test on a sub-set of genes from part A
-*Currently working on how to achive goals C and D 
-
-
-
 
 Types of samples: 
 
